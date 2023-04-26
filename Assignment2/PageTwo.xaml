@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment2.PageTwo">
+    <VerticalStackLayout>
+        <Button
+            Text="Add to Favorites"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Margin="20, 20, 20, -30" />
+        <TableView Intent="Data">
+            <TableRoot>
+                <TableSection>
+                    <ViewCell>
+                        <Grid 
+                            RowDefinitions="30, 50, 25, 50, 50, 50, 50, 50,
+                                            50, 50, 50, 50, 50, 50, 50, 50, 50"
+                            ColumnDefinitions="0.2*, 0.5*, 0.3*">
+
+                            <Label
+                                Grid.Row="0"
+                                Grid.ColumnSpan="3"
+                                Text="Match ID - 7077186649 | Match Length - 56:16" 
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontSize="Micro" />
+
+                            <!-- Radiant Team -->
+
+                            <Label
+                                Grid.Row="1"
+                                Grid.ColumnSpan="3"
+                                Text="Radiant Team - Winner" 
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontSize="Medium"
+                                FontAttributes="Bold"
+                                TextColor="Green"/>
+
+                            <Label 
+                                Grid.Row="2"
+                                Grid.Column="0"
+                                Text="Hero"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontAttributes="Bold"/>
+                            <Label 
+                                Grid.Row="2"
+                                Grid.Column="1"
+                                Text="Name"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontAttributes="Bold"/>
+                            <Label 
+                                Grid.Row="2"
+                                Grid.Column="2"
+                                Text="K/D/A"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontAttributes="Bold"/>
+
+                            <Image 
+                                Grid.Row="3"
+                                Grid.Column="0"
+                                Source="portrait_veno.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="3"
+                                Grid.Column="1"
+                                Text="Chrisso"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label
+                                Grid.Row="3"
+                                Grid.Column="2"
+                                Text="3/11/24"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="4"
+                                Grid.Column="0"
+                                Source="portrait_tide.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="4"
+                                Grid.Column="1"
+                                Text="Thrilwood"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="4"
+                                Grid.Column="2"
+                                Text="4/14/19"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="5"
+                                Grid.Column="0"
+                                Source="portrait_pa.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="5"
+                                Grid.Column="1"
+                                Text="[?]"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label
+                                Grid.Row="5"
+                                Grid.Column="2"
+                                Text="21/6/14"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="6"
+                                Grid.Column="0"
+                                Source="portrait_silencer.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="6"
+                                Grid.Column="1"
+                                Text="neiLzzz"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="6"
+                                Grid.Column="2"
+                                Text="2/16/20"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="7"
+                                Grid.Column="0"
+                                Source="portrait_invo.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="7"
+                                Grid.Column="1"
+                                Text="xyshey"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="7"
+                                Grid.Column="2"
+                                Text="8/6/21"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <!-- Dire Team -->
+
+                            <Label
+                                Grid.Row="8"
+                                Grid.ColumnSpan="3"
+                                Text="Dire Team" 
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontSize="Medium"
+                                FontAttributes="Bold"
+                                TextColor="Red"/>
+
+                            <Label 
+                                Grid.Row="9"
+                                Grid.Column="0"
+                                Text="Hero"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontAttributes="Bold"/>
+                            <Label 
+                                Grid.Row="9"
+                                Grid.Column="1"
+                                Text="Name"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontAttributes="Bold"/>
+                            <Label 
+                                Grid.Row="9"
+                                Grid.Column="2"
+                                Text="K/D/A"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                FontAttributes="Bold"/>
+
+                            <Image 
+                                Grid.Row="10"
+                                Grid.Column="0"
+                                Source="portrait_pudge.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="10"
+                                Grid.Column="1"
+                                Text="acertain"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label
+                                Grid.Row="10"
+                                Grid.Column="2"
+                                Text="14/9/21"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="11"
+                                Grid.Column="0"
+                                Source="portrait_viper.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="11"
+                                Grid.Column="1"
+                                Text="Meh"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="11"
+                                Grid.Column="2"
+                                Text="8/9/24"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="12"
+                                Grid.Column="0"
+                                Source="portrait_skywrath.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="12"
+                                Grid.Column="1"
+                                Text="daniescol"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label
+                                Grid.Row="12"
+                                Grid.Column="2"
+                                Text="6/10/29"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="13"
+                                Grid.Column="0"
+                                Source="portrait_ck.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="13"
+                                Grid.Column="1"
+                                Text="Ser TinyTicTac"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="13"
+                                Grid.Column="2"
+                                Text="20/4/10"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                            <Image 
+                                Grid.Row="14"
+                                Grid.Column="0"
+                                Source="portrait_muerta.jpg"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="14"
+                                Grid.Column="1"
+                                Text="Lord of the Flies"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                            <Label 
+                                Grid.Row="14"
+                                Grid.Column="2"
+                                Text="4/7/18"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                        </Grid>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </VerticalStackLayout>
+</ContentPage>
